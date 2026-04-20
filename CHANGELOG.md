@@ -6,13 +6,35 @@ This project follows Semantic Versioning.
 
 ## [1.0.0] 
 ### Added
-- xyz
+- created enquiry.html
+- created contact.html
+- created about.html
+- added image of water
+- created product.html
+- added a picture
 
 ### Changed
-- xyz
+- updated index.html
+- updated README
 
 ### Fixed
-- xyz
+## [0.1.0]
+### Added
+- Added sitemap
+
+
+## [1.2.0] - Apr 20, 2026
+### Changed
+- Updated products.html
+- Updated index.html
+- Updated enquiry.html
+- Updated contact.html
+- Updated about.html
+
+## [1.1.0] - Apr 18, 2026
+### Changed
+- Updated product.html
+
 
 ## Semantic Versioning
 
