@@ -23,6 +23,7 @@ This project follows Semantic Versioning.
 - Added sitemap
 
 
+
 ## [1.2.0] - Apr 20, 2026
 ### Changed
 - Updated products.html
