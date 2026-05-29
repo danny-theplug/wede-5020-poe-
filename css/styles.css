@@ -1,0 +1,495 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+body{
+    font-family:Arial, sans-serif;
+    background:rgb(10, 24, 38);
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    backdrop-filter: blur (12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(0, 0, 53, 0.5) ;
+    color: white;
+    padding: 15px 40px;
+    border-radius:50px;
+    padding:20px 8%;
+    box-shadow:0 4px 10px rgba(3, 2, 2, 0.5);
+    position: relative;
+    top:0;
+}    
+
+
+  /* NAVIGATION BAR */
+
+nav{
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+/* Navigation Links */
+
+nav ul{
+    color: white;
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+th{
+    color: white;
+}
+nav a{
+    color:white;
+}
+
+/* Hover Effect */
+
+nav ul li a:hover{
+    color:coral;
+}
+
+
+main{
+    min-height:80vh;
+    padding:60px 8%;
+}
+
+/* Main Heading */
+
+main h1{
+    font-size:50px;
+    color:#00bfff;
+    margin-bottom:20px;
+}
+
+main p{
+    font-size:18px;
+    color:#dddddd;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer{
+    background: #475569;
+    text-align:center;
+    padding:25px;
+    border-top:3px solid coral;
+    background-image: url(https://images.stockcake.com/public/1/9/f/19f89b6e-1b89-4375-80aa-b5a8a92c2ac6_large/water-drop-impact-stockcake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 60%;
+}
+
+footer p{
+    color:#aaaaaa;
+    font-size:16px;
+}
+
+@media(max-width:768px){
+
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+        text-align: center;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+
+    }
+
+    main h1{
+        font-size:35px;
+    }
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+.form-group{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+label{
+    text-align: left;
+    width: 100%;
+    padding: 8px;
+}
+input:focus, select:focus{
+    outline: none;
+    background-color: skyblue;
+    transition: 0.3s;
+}
+
+h1{
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3{
+    font-style: oblique;
+    text-align: center;
+}
+.explore-button{
+    background-color: solid coral;
+    color: white;
+    padding: 15px 40px;
+    border-radius:50px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-colour 0.3s ease;
+}
+.explore-button{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+/* contact page */
+
+.contact-page {
+    background: #0b1f44;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main box */
+.contact-page main {
+    width: 90%;
+    max-width: 850px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 140, 255, 0.2);
+   
+}
+
+/* title */
+.contact-page h1 {
+    color: #2ea3ff;
+    font-size: 60px;
+    margin-bottom: 35px;
+    font-style: italic;
+    text-shadow: 0 0 15px rgba(46, 163, 255, 0.7);
+}
+
+/* sub headings */
+.contact-page h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+/* text */
+.contact-page p {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+/* links */
+.contact-page a {
+    color: #2ea3ff;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.contact-page a:hover {
+    color: #7cc7ff;
+    text-shadow: 0 0 10px #2ea3ff;
+}
+
+/*  INSTAGRAM BUTTON */
+.contact-page .icons {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 14px 30px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+
+.contact-page .icons:hover {
+    transform: scale(1.05);
+}
+
+/*  MAP */
+.contact-page iframe {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 140, 255, 0.4);
+}
+
+/*  footer */
+.contact-page footer {
+    margin-top: 50px;
+    padding: 25px;
+    color: #d6d6d6;
+    font-size: 18px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .contact-page h1 {
+        font-size: 38px;
+    }
+
+    .contact-page h3 {
+        font-size: 24px;
+    }
+
+    .contact-page p {
+        font-size: 18px;
+    }
+
+    .contact-page iframe {
+        height: 280px;
+    }
+
+    .contact-page .icons {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+}
+/* ===== HOME PAGE ===== */
+
+.home-page {
+    background: #07152d;
+    min-height: 100vh;
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+.home-page main {
+    max-width: 900px;
+    margin: auto;
+}
+
+.home-page .hero-image {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,140,255,0.3);
+}
+
+.home-page h1 {
+    color: #2ea3ff;
+    font-size: 55px;
+    margin-top: 25px;
+}
+
+.home-page h3 {
+    font-size: 30px;
+}
+
+.home-page p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.home-page .explore-button {
+    background: #2ea3ff;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home-page .explore-button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.home-page .explore-button:hover {
+    transform: scale(1.05);
+    background: #1b7fd1;
+}
+/* about page */
+
+.about-page {
+    background: #07152d;
+    min-height: 100vh;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-page .about-content {
+    max-width: 850px;
+    margin: auto;
+    background: rgba(255,255,255,0.05);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,140,255,0.2);
+}
+
+.about-page h1 {
+    color: #2ea3ff;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.about-page h3 {
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.about-page p {
+    font-size: 22px;
+    line-height: 1.8;
+}
+/* enquiry page */
+
+.enquiry-page {
+    background: #07152d;
+    min-height: 100vh;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.enquiry-page h1 {
+    color: #2ea3ff;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.enquiry-form {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255,255,255,0.05);
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    box-shadow: 0 0 20px rgba(0,140,255,0.2);
+}
+
+.enquiry-form label {
+    text-align: left;
+    font-size: 20px;
+}
+
+.enquiry-form input,
+.enquiry-form select {
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.enquiry-form button {
+    background: #2ea3ff;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.enquiry-form button:hover {
+    background: #1b7fd1;
+    transform: scale(1.03);
+}
+/* products page */
+
+.products-page {
+    background: #07152d;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.products-page h1 {
+    color: #2ea3ff;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 18px;
+    width: 250px;
+    box-shadow: 0 0 20px rgba(0,140,255,0.2);
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product h3 {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.product p {
+    font-size: 22px;
+    color: #7cc7ff;
+}
+
