@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 This project follows Semantic Versioning.
 
-## [1.0.0] 
+## [1.0.0] - May 29, 2026 
 ### Added
 - created enquiry.html
 - created contact.html
@@ -12,9 +12,12 @@ This project follows Semantic Versioning.
 - added image of water
 - created product.html
 - added a picture
+- created styles.css
+
 
 ### Changed
 - updated index.html
+- updated README
 - updated README
 
 ### Fixed
@@ -35,7 +38,21 @@ This project follows Semantic Versioning.
 ## [1.1.0] - Apr 18, 2026
 ### Changed
 - Updated product.html
+- updated product.html
+- updated index.html
 
+## [1.2.0] - May 29, 2026
+### Changed
+- Updated styles.css
+- Improved website styling
+- Improved page layout
+- Updated product.html
+- Updated README.md
+- Improved typography and colours
+- Improved user interface design
+- Added responsive styling
+- Added hover effects
+- Added improved button styling
 
 ## Semantic Versioning
 
